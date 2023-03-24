@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*vh é a altura relativa em relação a height, que é a altura da janela do navegador*/
+  height: 100vh;
+  margin: 0;
+}
+
+.conteudo {
+  text-align: center;
+}
+
+#click {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+#retorno {
+  color: white;
+  font-size: 24px;
+}
