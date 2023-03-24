@@ -23,10 +23,10 @@ click.addEventListener('click', () => {
 	promessa
 		.then((retornaSucesso) => {
 			retorno.textContent = retornaSucesso;
-			const divErro = document.createElement('div');
+			const divSucesso = document.createElement('div');
 			const imagemErro = document.createElement('img');
 			imagemErro.src = 'https://media.giphy.com/media/yJFeycRK2DB4c/giphy.gif';
-			divErro.appendChild(imagemErro);
+			divSucesso.appendChild(imagemErro);
 			retorno.appendChild(divErro);
 			retorno.style.color = 'green';
 		})
