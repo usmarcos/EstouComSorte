@@ -24,10 +24,10 @@ click.addEventListener('click', () => {
 		.then((retornaSucesso) => {
 			retorno.textContent = retornaSucesso;
 			const divSucesso = document.createElement('div');
-			const imagemErro = document.createElement('img');
-			imagemErro.src = 'https://media.giphy.com/media/yJFeycRK2DB4c/giphy.gif';
-			divSucesso.appendChild(imagemErro);
-			retorno.appendChild(divErro);
+			const imagemSucesso = document.createElement('img');
+			imagemSucesso.src = 'https://media.giphy.com/media/yJFeycRK2DB4c/giphy.gif';
+			divSucesso.appendChild(imagemSucesso);
+			retorno.appendChild(divSucesso);
 			retorno.style.color = 'green';
 		})
 		.catch((retornaErro) => {
